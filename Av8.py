@@ -1,3 +1,6 @@
 from os import listdir
 
-print(listdir())
+lista = listdir('.')
+
+for arquivo in lista:
+    print (arquivo)
